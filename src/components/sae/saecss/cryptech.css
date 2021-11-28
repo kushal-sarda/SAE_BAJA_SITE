@@ -1,0 +1,10 @@
+@media (max-width:600px)
+{
+    iframe{
+        height: 200px;
+        width: 300px;
+    }
+    .cryptech{
+        overflow-x: hidden!important;
+    }
+}
