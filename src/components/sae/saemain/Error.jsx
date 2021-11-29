@@ -14,7 +14,8 @@ const Error = () => {
                 <span class="four"><span class="screen-reader-text">4</span></span>
             </section>
             <div class="link-container">
-                <NavLink target="_blank" to="/" class="more-link">Home</NavLink>
+                <button className="btn" style={{ background: "red", color: "white", textDecoration: "none" }}>
+                    <NavLink style={{ textDecoration: "none", color: "white" }} target="_blank" to="/" class="more-link" >Home</NavLink></button>
             </div>
         </div>
     )

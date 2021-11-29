@@ -10,8 +10,8 @@
     position: relative;
   }
   .error-container > span.four {
-    width: 136px;
-    height: 43px;
+    width: 10rem;
+    height: 3rem;
     border-radius: 999px;
     background:
       linear-gradient(140deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.07) 43%, transparent 44%, transparent 100%),
@@ -46,8 +46,8 @@
   
   .error-container > span.zero {
     vertical-align: text-top;
-    width: 156px;
-    height: 156px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 999px;
     background: linear-gradient(-45deg, transparent 0%, rgba(0, 0, 0, 0.06) 50%,  transparent 51%, transparent 100%),
       linear-gradient(to top right,red, darkred, red, red, darkred);
@@ -101,4 +101,13 @@
       box-shadow: inset 160px -160px 0px 5px rgba(0, 0, 0, 0.4);
     }
   }
-  
+ @media (max-width:400px)
+ {
+  .error-container > span.four{
+     width: 100px;
+   }
+   .error-container > span.zero{
+     height: 110px;
+     width: 110px;
+   }
+ }
