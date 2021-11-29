@@ -11,6 +11,7 @@ import { FaArrowCircleUp, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 import { RiPhoneFindLine } from "react-icons/ri";
 import { FiPhoneCall } from "react-icons/fi";
 import { BiMailSend } from "react-icons/bi";
+import img from "../../../images/sae_logo.png"
 
 const Footer = () => {
     const [visible, setVisible] = useState(false);
@@ -87,19 +88,19 @@ const Footer = () => {
                                 <div className="footer-widget">
                                     <div className="footer-logo">
                                         <a>
-                                            <img src="" className="img-fluid" alt="logo" />
-                                        </a>
+                                            <img src={img} className="img-fluid" alt="logo" style={{ width: "150px" }} />
+                                        </a>"
                                     </div>
                                     <div className="footer-text"></div>
                                     <div className="footer-social-icon">
                                         <span>Follow us</span>
-                                        <a href="https://www.facebook.com/TEDxNITD/">
+                                        <a target="_blank" href="https://www.facebook.com/SAENITD/">
                                             <AiFillFacebook size={32} />
                                         </a>
-                                        <a href="https://instagram.com/tedxnitdurgapur?utm_medium=copy_link">
+                                        <a target="_blank" href="https://www.instagram.com/sae.nitd/?hl=en">
                                             <FaInstagramSquare size={32} />
                                         </a>
-                                        <a href="https://www.linkedin.com/company/tedxnitdurgapur/">
+                                        <a target="_blank" href="https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter/mycompany/">
                                             <FaLinkedin size={32} />
                                         </a>
                                     </div>

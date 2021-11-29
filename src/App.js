@@ -12,9 +12,11 @@ import Member from "./components/sae/saemain/Member";
 import Events from "./components/sae/saemain/Events"
 import Error from './components/sae/saemain/Error';
 import Autopia from './components/sae/saemain/Autopia';
-import Navbarb from './components/baja/bajasae/Navbarb';
+import Bajasae from "./components/sae/saemain/Bajasae";
+
 import { Routes, Route } from 'react-router-dom';
 //baja
+import Navbarb from './components/baja/bajasae/Navbarb';
 import Homeb from "./components/baja/bajasae/Home"
 import Aboutb from './components/baja/bajasae/About';
 import Team from "./components/baja/bajasae/Team"
@@ -37,6 +39,7 @@ function App() {
               <Achievements />
               <Events />
               <Cryptech />
+              <Bajasae />
               <Footer /></>}>
 
             </Route>

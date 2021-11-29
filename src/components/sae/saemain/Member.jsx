@@ -30,36 +30,39 @@ const Members = () => {
 
             <h1 className=" p-4 text-center" style={{ color: "red" }}>Members</h1>
             <section className="2022">
-                <div class="row">
+                <div className="row">
                     {
 
 
 
 
                         <div div className="col-lg-4">
-                            <div className="container member">
-                                <div className="wrapper">
-                                    <a href="#">
-                                        <img className="image" src={image} alt="image" />
-                                    </a>
-                                    <div className="title text-center">
-                                        Andrew Neil
-                                    </div>
-                                    <div className="place text-center">
-                                        Surkhet, Nepal
+
+                            <div className="card1">
+                                <div className="img-container">
+                                    <div className="skewed">
+                                        <div id="img"></div>
                                     </div>
                                 </div>
-                                <div className="icons">
-                                    <li><a href="#"><FaFacebookSquare size={32} /></a></li>
-                                    <li><a href="#"><FaLinkedin size={32} /></a></li>
-                                    <li><a href="#"><FaInstagramSquare size={32} /></a></li>
+                                <div className="content1">
+                                    <h3>Name</h3>
+                                    <h5>Web developer</h5>
+                                    <div className="links">
+                                        <a href="#"><FaFacebookSquare /></a>
+                                        <a href="#"><FaInstagramSquare /></a>
+                                        <a href="#"><FaLinkedin /></a>
+
+                                    </div>
                                 </div>
                             </div>
+
+
                         </div>
 
 
 
                     }
+
 
                 </div>
 

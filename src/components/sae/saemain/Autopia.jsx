@@ -21,13 +21,13 @@ const Autopia = () => {
                                 <nav className="text-center">
                                     <ul className="pager">
                                         <ol className="previous" style={{ textDecoration: "none" }}>
-                                            <button className="mr-3 p-2 bg-danger text-white"
+                                            <button style={{ background: "red" }} className="mr-3 p-2 text-white"
                                                 disabled={page === 1}
                                                 onClick={() => setPage(page - 1)}
                                             >
                                                 Previous
                                             </button>
-                                            <button className="mr-3 p-2 bg-danger text-white"
+                                            <button style={{ background: "red" }} className="mr-3 p-2  text-white"
                                                 disabled={page === pdfDocument.numPages}
                                                 onClick={() => setPage(page + 1)}
                                             >
