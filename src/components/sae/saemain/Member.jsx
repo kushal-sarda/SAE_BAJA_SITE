@@ -30,35 +30,124 @@ const Members = () => {
 
             <h1 className=" p-4 text-center" style={{ color: "red" }}>Members</h1>
             <section className="2022">
+                <h1 className=" p-4 text-center" style={{ color: "red" }}>Final Years</h1>
                 <div className="row">
                     {
 
 
 
 
-                        <div div className="col-lg-4">
+                        country.map((item) => {
+                            var x = item.batch;
+                            console.log(x);
+                            return (
 
-                            <div className="card1">
-                                <div className="img-container">
-                                    <div className="skewed">
-                                        <div id="img"></div>
+
+                                (x === 2022) ? <div className="col-lg-3  col-md-6">
+
+                                    <div className="card1 m-4">
+                                        <div className="img-container">
+                                            <div className="skewed">
+                                                <div id="img"> <img className="imgs" src={item.image} alt="memberiamge"></img> </div>
+                                            </div>
+                                        </div>
+                                        <div className="content1">
+                                            <h3>{item.first_name} {item.last_name}</h3>
+                                            <h5>{item.post}</h5>
+                                            <div className="links">
+                                                <a href={item.facebook}><FaFacebookSquare /></a>
+                                                <a href={item.insta}><FaInstagramSquare /></a>
+                                                <a href={item.linkedin}><FaLinkedin /></a>
+
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="content1">
-                                    <h3>Name</h3>
-                                    <h5>Web developer</h5>
-                                    <div className="links">
-                                        <a href="#"><FaFacebookSquare /></a>
-                                        <a href="#"><FaInstagramSquare /></a>
-                                        <a href="#"><FaLinkedin /></a>
 
+
+                                </div> : <h1></h1>
+
+
+                            )
+                        })
+                    }
+                </div>
+            </section>
+            <section>
+                <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-400px", color: "red" }}>Third Years</h1>
+                <div className="row" style={{ marginTop: "-100px" }}>
+
+                    {
+                        country.map((item) => {
+                            var x = item.batch;
+                            console.log(x);
+                            return (
+
+
+                                (x === 2023) ? <div className="col-lg-3  col-md-6">
+
+                                    <div className="card1 m-4">
+                                        <div className="img-container">
+                                            <div className="skewed">
+                                                <div id="img"> <img src={item.image} alt="memberiamge"></img> </div>
+                                            </div>
+                                        </div>
+                                        <div className="content1">
+                                            <h3>{item.first_name} {item.last_name}</h3>
+                                            <h5>{item.post}</h5>
+                                            <div className="links">
+                                                <a href={item.facebook}><FaFacebookSquare /></a>
+                                                <a href={item.insta}><FaInstagramSquare /></a>
+                                                <a href={item.linkedin}><FaLinkedin /></a>
+
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
 
 
-                        </div>
+                                </div> : <h1></h1>
 
+
+                            )
+                        })
+                    }
+                </div>
+            </section>
+            <section>
+                <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-200px", color: "red" }}>Second Years</h1>
+                <div className="row" style={{ marginTop: "-350px" }}>
+                    {
+                        country.map((item) => {
+                            var x = item.batch;
+                            console.log(x);
+                            return (
+
+
+                                (x === 2024) ? <div className="col-lg-3 col-md-6">
+
+                                    <div className="card1 m-4">
+                                        <div className="img-container">
+                                            <div className="skewed">
+                                                <div id="img"> <img src={item.image} alt="memberiamge"></img> </div>
+                                            </div>
+                                        </div>
+                                        <div className="content1">
+                                            <h3>{item.first_name} {item.last_name}</h3>
+                                            <h5>{item.post}</h5>
+                                            <div className="links">
+                                                <a href={item.facebook}><FaFacebookSquare /></a>
+                                                <a href={item.insta}><FaInstagramSquare /></a>
+                                                <a href={item.linkedin}><FaLinkedin /></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div> : <h1></h1>
+
+
+                            )
+                        })
 
 
                     }
