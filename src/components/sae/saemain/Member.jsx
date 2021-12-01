@@ -88,7 +88,7 @@ const Members = () => {
                                     <div className="card1 m-4">
                                         <div className="img-container">
                                             <div className="skewed">
-                                                <div id="img"> <img src={item.image} alt="memberiamge"></img> </div>
+                                                <div id="img"> <img className="imgs" src={item.image} alt="memberiamge"></img> </div>
                                             </div>
                                         </div>
                                         <div className="content1">
@@ -127,7 +127,7 @@ const Members = () => {
                                     <div className="card1 m-4">
                                         <div className="img-container">
                                             <div className="skewed">
-                                                <div id="img"> <img src={item.image} alt="memberiamge"></img> </div>
+                                                <div id="img"> <img className="imgs" src={item.image} alt="memberiamge"></img> </div>
                                             </div>
                                         </div>
                                         <div className="content1">
