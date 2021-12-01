@@ -93,7 +93,7 @@ const Members = () => {
                                         </div>
                                         <div className="content1">
                                             <h3>{item.first_name} {item.last_name}</h3>
-                                            <h5>{item.post}</h5>
+                                            <h5></h5>
                                             <div className="links">
                                                 <a href={item.facebook}><FaFacebookSquare /></a>
                                                 <a href={item.insta}><FaInstagramSquare /></a>
@@ -132,7 +132,7 @@ const Members = () => {
                                         </div>
                                         <div className="content1">
                                             <h3>{item.first_name} {item.last_name}</h3>
-                                            <h5>{item.post}</h5>
+                                            <h5></h5>
                                             <div className="links">
                                                 <a href={item.facebook}><FaFacebookSquare /></a>
                                                 <a href={item.insta}><FaInstagramSquare /></a>
