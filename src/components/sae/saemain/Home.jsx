@@ -1,56 +1,97 @@
 import React from 'react'
-import Slide from 'react-reveal/Slide';
-import { useState, useEffect, useRef } from 'react'
-import BIRDS from '../../../../node_modules/vanta/dist/vanta.net.min'
+import { Carousel } from 'react-carousel-minimal';
+
+
+
 
 const Home = () => {
-    const [vantaEffect, setVantaEffect] = useState(0)
-    const myRef = useRef(null)
-    useEffect(() => {
-        if (!vantaEffect) {
-            setVantaEffect(BIRDS({
-                el: myRef.current,
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                scaleMobile: 1.00,
-                color: 0xff0000,
-                backgroundColor: 0x000000
-            }))
+    const data = [
+        {
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
+          caption: "San Francisco"
+        },
+        {
+          image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
+          caption: "Scotland"
+        },
+        {
+          image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
+          caption: "Darjeeling"
+        },
+        {
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
+          caption: "San Francisco"
+        },
+        {
+          image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
+          caption: "Scotland"
+        },
+        {
+          image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
+          caption: "Darjeeling"
+        },
+        {
+          image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
+          caption: "San Francisco"
+        },
+        {
+          image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
+          caption: "Scotland"
+        },
+        {
+          image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
+          caption: "Darjeeling"
         }
-        return () => {
-            if (vantaEffect) vantaEffect.destroy()
-        }
-    }, [vantaEffect])
+      ];
+    
+      const captionStyle = {
+        fontSize: '2em',
+        fontWeight: 'bold',
+      }
+      const slideNumberStyle = {
+        fontSize: '20px',
+        fontWeight: 'bold',
+      }
+  
     return (
-        <div ref={myRef}>
-            <section className="home ">
-                <div className="container-fluid justify-content-center align-items-center">
-                    <div className="row  vh-100  justify-content-center align-items-center text-start" >
-                        <Slide to left>
-                            <div className="col-lg-6 mx-2" style={{ marginTop: "-40px" }}>
-                                <h1 className="text-light text-start" style={{
-                                    textShadow: "1px 1px 0px #f5deb3, 2px 2px 0px #f5deb3,3px 3px 0px black", fontSize: "3em"
-                                }}>SAE NITD</h1>
-                                <h4 className=" fst-italic" style={{ color: "wheat" }}> Society Of Automotive Engineering, NIT Durgapur </h4>
-
-                            </div>
-                        </Slide>
-                        <Slide to right>
-                            <div className="col-lg-5 order-0 mt-5" style={{ marginTop: "0px" }}>
-
-
-                                <p className="down" style={{ color: "wheat", fontStyle: "italic" }}>SAEINDIA is India's leading resource for mobility technology. It is a strategic alliance partner of SAE International registered in India as an Indian nonprofit engineering and scientific society dedicated to the advancement of mobility industry in India.</p>
-                            </div>
-                        </Slide>
-                    </div>
-                </div>
-            </section>
+   
+        <div className="App">
+        <div style={{ textAlign: "center" }}>
+         
+          <div style={{
+            padding: "0 0px"
+          }}>
+            <Carousel
+              data={data}
+              time={2000}
+              width="1600px"
+              height="500px"
+              captionStyle={captionStyle}
+              radius="5px"
+              slideNumber={true}
+              slideNumberStyle={slideNumberStyle}
+              captionPosition="bottom"
+              automatic={true}
+              dots={true}
+              pauseIconColor="white"
+              pauseIconSize="40px"
+              slideBackgroundColor="darkgrey"
+              slideImageFit="cover"
+              thumbnails={true}
+              thumbnailWidth="100px"
+              style={{
+                textAlign: "center",
+                maxWidth: "1650px",
+                maxHeight: "500px",
+                margin: "0px auto 50px auto",
+              }}
+            />
+          </div>
         </div>
+      </div>
     )
 }
+
+
 
 export default Home

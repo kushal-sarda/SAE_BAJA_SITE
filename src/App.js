@@ -37,7 +37,7 @@ function App() {
               <About />
               <Faculty />
               <Achievements />
-              <Events />
+              {/* <Events /> */}
               <Cryptech />
               <Bajasae />
               <Footer /></>}>

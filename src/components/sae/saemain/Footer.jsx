@@ -107,35 +107,35 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6 col-md-6 mb-30">
-                                <div className="footer-widget">
-                                    <div className="footer-widget-heading">
+                                <div className="footer-widget" >
+                                    <div className="footer-widget-heading"  style={{backgroundColor:"#000"}}>
                                         <h3>Useful Links</h3>
                                     </div>
                                     <ul>
                                         <li>
-                                            <NavLink to="/" exact>
+                                            <NavLink to="/" style={{backgroundColor:"#000"}} exact>
                                                 Home
                                             </NavLink>
                                         </li>
 
                                         <li>
-                                            <NavLink to="/events" exact>
+                                            <NavLink to="/events"  style={{backgroundColor:"#000"}} exact>
                                                 Events
                                             </NavLink>
                                         </li>
 
                                         <li>
-                                            <NavLink to="/members" exact>
+                                            <NavLink to="/members"   style={{backgroundColor:"#000"}} exact>
                                                 Members
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/baja" exact>
+                                            <NavLink to="/baja"  style={{backgroundColor:"#000"}} exact>
                                                 baja
                                             </NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/autopia" exact>
+                                            <NavLink to="/autopia"  style={{backgroundColor:"#000"}} exact>
                                                 autopia
                                             </NavLink>
                                         </li>
