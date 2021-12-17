@@ -32,7 +32,7 @@
     background-color: none;
   }
   .nav-item{
-      background-color: transparent;
+      background-color: transparent!important;
       background: none;
   }
   .navb a:hover{

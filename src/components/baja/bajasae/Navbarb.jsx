@@ -4,7 +4,7 @@ import "../bajacss/navbar.css"
 const Navbarb = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-dark  fixed-top" style={{ background: "rgba(0,0,0,0.5)" }} id="mainNav">
+            <nav className="navbar navbar-expand-md navbar-dark  fixed-top" style={{ background: "rgba(0,0,0)" }} id="mainNav">
                 <div className="container">
                     <a className="navbar-brand" href="#page-top"><img src="/images/logo.jpeg" alt="..." /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

@@ -5,7 +5,7 @@ const Cryptech = () => {
 
     return (
         <>
-            <section className="cryptech container  text-center">
+            <section className="cryptech container  text-center mt-4">
                 <div class="container ">
 
 

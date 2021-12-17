@@ -5,8 +5,9 @@ import { FiYoutube, FiInstagram, FiFacebook } from "react-icons/fi"
 import { MdEventAvailable } from "react-icons/md"
 import { FaSchool } from "react-icons/fa"
 import { useState, useEffect, useRef } from 'react'
-import BIRDS from '../../../../node_modules/vanta/dist/vanta.dots.min'
+import BIRDS from '../../../../node_modules/vanta/dist/vanta.waves.min'
 import VisibilitySensor from "react-visibility-sensor";
+// import "../saecss/achievements"
 const Achievements = () => {
     const [vantaEffect, setVantaEffect] = useState(0)
     const myRef = useRef(null)
@@ -21,7 +22,7 @@ const Achievements = () => {
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
-                color: 0xff2020,
+                color: 0x000,
                 color2: 0xff2020
             }))
         }
@@ -30,84 +31,70 @@ const Achievements = () => {
         }
     }, [vantaEffect])
     return (
-        <div ref={myRef}>
+        <div ref={myRef} className='m-4'>
             <Slide to bottom>
-                <section className="event p-4">
-                    <div className="heading text-center p-4" style={{ color: "wheat" }}><h1>Our Achievements</h1></div>
-                    <div className="container-fluid justify-content-center">
-                        <div className="row justify-content-center align-items-center mx-auto">
-                            <div className="col-lg-3 col-md-6 text-center">
-                                <FaSchool color="red" size={64} />
-                                <h5 className="text-light">Fests</h5>
-                                <VisibilitySensor partialVisibility offset={{ top: 200 }}>
-                                    {({ isVisible }) => (
-                                        <div className="text-muted">
-                                            {isVisible ? <h5><CountUp start={0} end={100} duration={5} /></h5> : 100}
-                                        </div>
-                                    )}
-                                </VisibilitySensor>
-                            </div>
-                            <div className="col-lg-3 text-center">
-                                <MdEventAvailable color="red" size={64} />
-                                <h5 className="text-light">Events</h5>
-                                <VisibilitySensor partialVisibility offset={{ top: 200 }}>
-                                    {({ isVisible }) => (
-                                        <div className="text-muted">
-                                            {isVisible ? <h5><CountUp start={0} end={100} duration={5} />+</h5> : 100}
-                                        </div>
-                                    )}
-                                </VisibilitySensor>
-
-                            </div>
-                            <div className="col-lg-3 col-md-6 text-center ">
-                                <FiInstagram color="red" size={64} />
-                                <h5 className="text-light">Social Media</h5>
-                                <div className="row">
-                                    <div className="col text-right">
-
-                                        <VisibilitySensor partialVisibility offset={{ top: 200 }}>
-                                            {({ isVisible }) => (
-                                                <div className="text-muted">
-                                                    {isVisible ? <h5><FiFacebook color="red" size={20} /><CountUp start={0} end={100} duration={5} />K</h5> : 100}
-                                                </div>
-                                            )}
-                                        </VisibilitySensor>
-
-                                    </div>
-                                    <div className="col text-left">
-                                        <VisibilitySensor partialVisibility offset={{ top: 200 }}>
-                                            {({ isVisible }) => (
-                                                <div className="text-muted">
-                                                    {isVisible ? <h5><FiInstagram color="red" size={20} /> <CountUp start={0} end={100} duration={5} />K</h5> : 100}
-                                                </div>
-                                            )}
-                                        </VisibilitySensor>
-
-
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="col-lg-3 col-md-6 text-center">
-                                <FiYoutube color="red" size={64} />
-                                <h5 className="text-light">Youtube Videos</h5>
-                                <VisibilitySensor partialVisibility offset={{ top: 200 }}>
-                                    {({ isVisible }) => (
-                                        <div className="text-muted">
-                                            {isVisible ? <h5><CountUp start={0} end={100} duration={5} />+views</h5> : 100}
-                                        </div>
-                                    )}
-                                </VisibilitySensor>
-
-                            </div>
-                        </div>
-
-
-
-
+               
+            <section class="page-section text-light p-4" id="about">
+                <div class="container-fluid mt-4">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase p-4" style={{color:"red"}} >Our Achievements</h2>
+                        {/* <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> */}
                     </div>
-
-                </section>
+                    <ul class="timeline m-4">
+                        <li>
+                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="/images/2.jpg" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading text-light">
+                                    <h4>Fests</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="images/2.jpg" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading text-light">
+                                    <h4>Events</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="images/2.jpg" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading text-light">
+                                    <h4>Social Media</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="images/2.jpg" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading text-light">
+                                    <h4>Youtube</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted mb-5">
+                            <div class="timeline-image mb-4" style={{backgroundColor:"black"}}>
+                                <h4>
+                                    Be Part
+                                    <br />
+                                    Of Our
+                                    <br />
+                                    Story!
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             </Slide>
         </div>
     )
