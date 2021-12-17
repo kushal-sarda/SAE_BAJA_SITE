@@ -29,7 +29,7 @@ const Faculty = () => {
                     <img src={pic2} class="rounded-circle" alt="Cinque Terre" style={{ width: "13em", height: "13em" }} />
                     {/* <img src={pic2} class="card-img-top border-bottom-1" style={{ width: "400px", height: "400px", borderRadius: "50%" }} alt="..." /> */}
                     <div class="card-body  mt-4">
-                        <h5 class="card-title  " style={{ color: "red" }}>PROF(DR.) NILOPTAL BANERJEE</h5>
+                        <h5 class="card-title  " style={{ color: "red" }}>PROF(DR.) NILOTPAL BANERJEE</h5>
                         <p class="card-text  text-dark">Department of Mechanical Engineering</p>
                     </div>
                     {/* </div> */}
