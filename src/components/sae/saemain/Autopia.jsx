@@ -12,7 +12,7 @@ const Autopia = () => {
 
 
             <section className="pdf text-center justify-content-center align-content-center" style={{ height: "120vh", width: "auto" }}>
-                <Pdf file="http://www.pdf995.com/samples/pdf.pdf" page={page}>
+                <Pdf file="https://drive.google.com/file/d/1U52AJ3t8rzPYsUGRGXTvaSshXuUxioAl/view?usp=sharing" page={page}>
                     {({ pdfDocument, pdfPage, canvas }) => (
                         <>
                             {!pdfDocument && <span>Loading...</span>}

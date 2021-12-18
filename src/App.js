@@ -32,17 +32,19 @@ function App() {
 
           <Routes>
 
-            <Route exact path="/" element={<><Navbar />
+            {/* <Route exact path="/" element={<><Navbar />
               <Home />
               <About />
               <Faculty />
               <Achievements />
-              {/* <Events /> */}
+             
               <Cryptech />
               <Bajasae />
               <Footer /></>}>
+              
 
-            </Route>
+            </Route> */}
+            <Route exact path="/" element={<><Error/></>}></Route>
 
 
 
