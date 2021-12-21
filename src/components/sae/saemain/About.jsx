@@ -1,5 +1,6 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide';
+import "../saecss/about.css"
 const About = () => {
     return (
         <>
@@ -20,67 +21,37 @@ const About = () => {
                             </div>
                         </Slide>
                         <Slide to right>
-                            <div className="col-lg-6 mt-5 ">
-                                {/* <div className="heading  border-bottom border-light border-5 w-50 " style={{ color: "red" }}><h3>SAE INDIA Membership</h3></div>
-                                <br></br>
-                                <p className="text-dark"><strong className="text-danger">SAEINDIA </strong>is one of the few professional engineering societies whose membership represents practically every engineering and scientific discipline. Its members combine their specialized abilities to further advance the research, development, design, manufacture and utilization of vehicles which operate on land and water and in air and space. Be a part of the SAE family by becoming a member and enjoy the following benefits:</p>
-                                <ul className="text-dark">
-                                    <li>Members receive free registration at SAEINDIA's lecture meetings and exhibits. This unique benefit puts the members in touch with other professional engineers and suppliers who determine the future of the expanding mobility industry worldwide.</li>
-                                    <li>Members can purchase SAEINDIA and SAE International technical papers and publications at member discount prices.</li>
-                                    <li>Access vital high-tech mobility information through renewal registration fee for attending SAEINDIA National and International Congress.</li>
-                                </ul> */}
-                                <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div className="col-lg-6 mt-0  " >
+                                
+                            <div className="loading-wrapper" id="loading-wrapper">
+  <div className="outer" id="outer">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div className="inner-6" id="inner-6">
+    
+  </div>
+  <div className="inner-5" id="inner-5">
+    <span></span>
+  </div>
+  <div className="inner-4" id="inner-4">
+    <span></span>
+    <span></span>
+  </div>
+  <div className="inner-3" id="inner-3">
+    <span></span>
+  </div>
+  <div className="inner-2" id="inner-2">
+    <span></span>
+  </div>
+  <div className="inner-1" id="inner-1">
+    
+  </div>
+</div>
 
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-                                        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-                                    </ol>
-
-                                    <div class="carousel-inner" role="listbox">
-
-                                        <div class="carousel-item active">
-                                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
-                                                alt="First slide" />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5>First slide </h5>
-                                                <p>label
-                                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
-                                                alt="Second slide" />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5>second slide </h5>
-                                                <p>label
-                                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-                                                alt="Third slide" />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5>Third slide </h5>
-                                                <p>label
-                                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-
-                                </div>
+                                
                             </div>
                         </Slide>
 

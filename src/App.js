@@ -32,7 +32,7 @@ function App() {
 
           <Routes>
 
-            {/* <Route exact path="/" element={<><Navbar />
+            <Route exact path="/" element={<><Navbar />
               <Home />
               <About />
               <Faculty />
@@ -43,8 +43,8 @@ function App() {
               <Footer /></>}>
               
 
-            </Route> */}
-            <Route exact path="/" element={<><Error/></>}></Route>
+            </Route>
+            {/* <Route exact path="/" element={<><Error/></>}></Route> */}
 
 
 
