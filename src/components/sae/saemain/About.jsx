@@ -4,7 +4,7 @@ import "../saecss/about.css"
 const About = () => {
     return (
         <>
-            <section className="about pb-4 pt-5">
+            <section className="about pb-4 pt-5" style={{marginTop: "100px"}}>
                 <div className="container-fluid">
                     <div className="row mx-3">
                         <Slide to left>
@@ -57,7 +57,7 @@ const About = () => {
 
 
                     </div>
-                    <div className="row mx-3 bg-light">
+                    <div className="row mx-3 bg-light" style={{padding: "20px", paddingBottom: "20px", borderRadius:"20px"}}>
                         <div className="col-lg-12 mt-5 ">
                             <div className="heading  text-center border-bottom border-dark border-1 w-100 " style={{ color: "red" }}><h3 className="text-center">SAE INDIA Membership</h3></div>
                             <br></br>

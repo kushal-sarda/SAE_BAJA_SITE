@@ -2,3 +2,15 @@
 {
     background-color: #ffc800;
 }
+
+.parallaxOP{
+    /* The image used */
+  background-image: url("../../../images/lambozz.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

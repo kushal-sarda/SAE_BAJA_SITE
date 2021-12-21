@@ -7,10 +7,16 @@ import { FaSchool } from "react-icons/fa"
 import { useState, useEffect, useRef } from 'react'
 import VisibilitySensor from "react-visibility-sensor"
 import { NavLink } from 'react-router-dom';
+import {Parallax} from 'react-parallax';
+import lambo from '../../../images/lambozz.jpg';
+
 const Achievements = () => {
  
     return (
-        <div  className='m-4  bg-light'>
+        <>
+        <Parallax bgImage={lambo} strength={800} style={{backgroundSize:"cover !important"}}>
+
+        <div  className='m-4 ' style={{paddingBottom: '20px', borderRadius: "20px"}}>
             <Slide to bottom>
                
             <section class="page-section text-light p-4" id="about">
@@ -118,7 +124,8 @@ const Achievements = () => {
             </section>
             </Slide>
         </div>
-    )
+         </Parallax>
+   </> )
 }
 
 export default Achievements
