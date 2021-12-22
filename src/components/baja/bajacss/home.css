@@ -1,9 +1,11 @@
-
+.home{
+  height: 50vh;
+}
 
 .darkener {
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgb(255, 255, 255);
     padding-bottom: 1.5rem;
   }
   h2, p {
@@ -21,6 +23,8 @@
   .top-logo, .landing-page .page-subtitle {
     margin-bottom: 0;
   }
+
+ 
   
   .top-logo {
     text-transform: uppercase;
@@ -30,30 +34,37 @@
     padding-top: 0.4rem;
     border-top: 7px solid var(--orange);
     border-image: linear-gradient(to left, var(--orange-gradient-1), var(--orange-gradient-2)) 1;
+    z-index: 2;
   }
   
   .disclaimer {
     letter-spacing: 1px;
+    color: var(--yellow);
   }
   
   .landing-page-title {
     font-size: 2.25rem;
     font-weight: 300;
-    color: var(--white);
+    color: var(--yellow);
   }
   
   .page-subtitle {
-    font-size: 1.3125rem;
-    color: var(--orange);
-    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--yellow);
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   
   .contact-form-title {
+    margin-top: 10px;
     margin-bottom: 0;
   }
   
   .contact-form p:first-of-type {
-    margin-bottom: 2rem;
+    font-size: 25px;
+    margin-bottom: 4rem;
   }
   
   button {
@@ -61,6 +72,19 @@
     text-transform: uppercase;
     font-weight: 900;
     color: var(--white);
+  }
+
+  .fullvehicle-img{
+    width: 49em;
+    height: 500px;
+    margin-top: 60px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .fullvehicle-img{
+      width: 30em;
+      height: 23em;
+    }
   }
   
   @media screen and (min-width: 760px) {
@@ -121,11 +145,10 @@ main {
 
 .landing-page {
   background-color: var(--black);
-  background-image: url("https://www.wallpaperflare.com/static/530/810/440/renault-r-s-18-f1-2018-formula-one-f1-cars-wallpaper.jpg");
+  background-image: url("");
   background-size: cover;
   background-position: center;
-  height: 50vh;
-  margin-bottom: 2rem;
+  
 }
 
 .contact-form {
@@ -137,6 +160,7 @@ main {
       height: initial;
       min-height: 100vh;
       margin-bottom: 0;
+      width: 100%;
    }
   
   .flex-column {

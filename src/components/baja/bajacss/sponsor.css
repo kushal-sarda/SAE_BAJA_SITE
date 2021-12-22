@@ -1,0 +1,8 @@
+@media only screen and (max-width: 300px) {
+    .sponsor-logo{
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
+    }
+  }
