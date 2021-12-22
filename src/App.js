@@ -44,7 +44,7 @@ function App() {
               
 
             </Route>
-            <Route exact path="/" element={<><Error/></>}></Route>
+            {/* <Route exact path="/" element={<><Error/></>}></Route> */}
 
 
 
