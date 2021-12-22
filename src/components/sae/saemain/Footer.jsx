@@ -76,7 +76,10 @@ const Footer = () => {
                                         <FiPhoneCall size={32} />
                                         <br />
                                         <h4>Call us</h4>
-                                        <span>+91xxxx</span>
+                                        <span>V. Vishesh ( <strong>Gen Sec</strong> )</span>
+                                        <span>+916294274876</span><br/>
+                                        <span>Rounak Das ( <strong>President</strong> )</span>
+                                        <span>+917478528990</span>
                                     </div>
                                 </div>
                             </div>

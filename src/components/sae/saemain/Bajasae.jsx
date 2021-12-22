@@ -1,31 +1,21 @@
 import React from 'react'
 import img from "../../../images/baja.png"
+import img_baja from "../../../images/img_baja.jpg"
 import { NavLink } from 'react-router-dom'
 import "../saecss/bajasae.css"
 const bajasae = () => {
     return (
         <>
-            <div className="container mt-4">
+            <div className="container" style={{marginTop:"100px"}}>
                 <div className="row">
-                    <h1 className="text-center" style={{ color: "red" }}>SAE BAJA</h1>
+                    <h1 className="text-center" style={{ color: "red", marginBottom:"20px" }}>SAE BAJA</h1>
                     <div className="col lg-col-6 md-col-6  text-center">
-                        <img src={img} style={{ justifyContent: "center" }} alt="baja" style={{ height: "300px" }}></img>
+                        <img src={img_baja} style={{ justifyContent: "center" }} alt="baja" style={{ height: "300px", width:"350px" ,borderRadius: "20px" }}></img>
 
                     </div>
-                    <div className="col lg-col-6 md-col-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
-                            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-                            recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
-                            minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
-                            quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur</p>
-                        <NavLink to="/baja" href=""><button className="btn text-center justify-content-center" style={{ color: "white", background: "red" }}>read more</button></NavLink>
+                    <div className="col lg-col-6 md-col-6" style={{}}>
+                        <p><strong>Team NDORS</strong> ( NIT Durgapur Off-Road Sports ) is the official SAE BAJA team of NIT Durgapur representing the institute in BAJA SAE INDIA. The team involves a group of 25 auto-enthusiasts across different streams who share a common passion towards automobile engineering and racing. The team designs, fabricates and competes against other All-Terrain Vehicles at an event popularly called as BAJA SAE which is held annually every year at Pithampur, Indore.</p>
+                        <NavLink to="/baja" href=""><button className="btn text-center justify-content-center" style={{ color: "white", background: "red" , marginBottom:"auto"}}>read more</button></NavLink>
                     </div>
                 </div>
             </div>
