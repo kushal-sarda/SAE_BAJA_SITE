@@ -63,7 +63,7 @@ const Footer = () => {
                                         <br />
                                         <h4>Mail us</h4>
                                         <span className="footer-email">
-                                            saenitdurgapur.com
+                                            sae.nitdgp1@gmail.com
                                         </span>
 
                                     </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                                         <FiPhoneCall size={32} />
                                         <br />
                                         <h4>Call us</h4>
-                                        <span>V. Vishesh ( <strong>Gen Sec</strong> )</span>
+                                        <span>V Vishesh ( <strong>Gen Sec</strong> )</span>
                                         <span>+916294274876</span><br/>
                                         <span>Rounak Das ( <strong>President</strong> )</span>
                                         <span>+917478528990</span>
