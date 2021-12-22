@@ -66,8 +66,8 @@ const Home = () => {
             <Carousel
               data={data}
               time={2000}
-              width="1600px"
-              height="500px"
+              width="1920px"
+              height="800px"
               captionStyle={captionStyle}
               radius="5px"
               slideNumber={true}
@@ -83,9 +83,9 @@ const Home = () => {
               thumbnailWidth="100px"
               style={{
                 textAlign: "center",
-                maxWidth: "1650px",
-                maxHeight: "500px",
-                margin: "0px auto 50px auto",
+                maxWidth: "1920px",
+                maxHeight: "850px",
+                marginTop: "2px",
               }}
             />
           </div>

@@ -7,7 +7,7 @@ const Faculty = () => {
     return (
         <>
             <Slide to left>
-                <h1 className="text-center pb-4   mb-5 " style={{ color: "red" }}>Our Faculty Advisors</h1>
+                <h1 className="text-center pb-4   mb-5 " style={{ color: "red", marginTop: "50px", marginBottom: "50px" }}>Our Faculty Advisors</h1>
             </Slide>
 
             <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
