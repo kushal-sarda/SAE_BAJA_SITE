@@ -16,30 +16,30 @@ const Team = () => {
     return (
         <>
 
-            <section class="page-section bg-light" id="team">
-                <div class="container mt-4">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <section className="page-section bg-light" id="team">
+                <div className="container mt-4">
+                    <div className="text-center">
+                        <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
+                        <h3 className="section-subheading text-muted"></h3>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         {
                             country.map((item) =>
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src={item.image} alt="..." />
+                                <div className="col-lg-4">
+                                    <div className="team-member">
+                                        <img className="mx-auto rounded-circle" src={item.image} alt="..." />
                                         <h4>{item.name}</h4>
-                                        <p class="text-muted">{item.post}</p>
-                                        <a class="btn btn-dark btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>
-                                        <a class="btn btn-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
-                                        <a class="btn btn-dark btn-social mx-2" href={item.insta}><AiFillInstagram /></a>
+                                        <p className="text-muted">{item.post}</p>
+                                        <a className="btn btn-dark btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>
+                                        <a className="btn btn-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
+                                        <a className="btn btn-dark btn-social mx-2" href={item.insta}><AiFillInstagram /></a>
                                     </div>
                                 </div>
                             )
                         }
                     </div>
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div className="row">
+                        <div className="col-lg-8 mx-auto text-center"><p className="large text-muted"></p></div>
                     </div>
                 </div>
             </section>
