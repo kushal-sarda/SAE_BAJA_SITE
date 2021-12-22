@@ -41,10 +41,10 @@ const Achievements = () => {
                                             <img  style={{height:"100px",width:"100px"}} src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/605ebf9284b1b_aarohan-logo.png" alt="aarohan"></img>
                                             <p className='text-center  fw-bolder  text-light'>AArohan</p>
                                         </div>
-                                        <div className="col-lg-4">
+                                        {/* <div className="col-lg-4">
                                             <img  className=' rounded-circle' style={{height:"100px",width:"auto"}} src="https://www.noticebard.com/wp-content/uploads/2021/10/TedXNITDurgapur.jpg" alt="aarohan"></img>
                                             <p className='text-center  fw-bolder  text-light'>TED<sup>x</sup>NITDurgapur</p>
-                                        </div>
+                                        </div> */}
                                         <div className="col-lg-4">
                                             <img  className=' rounded-circle' style={{height:"100px",width:"100px"}} src="https://www.knowafest.com/files/uploads/Aavishkar%20Logo-2018101102.jpeg" alt="aarohan"></img>
                                             <p className='text-center  fw-bolder text-light'>AAVISHKAR</p>

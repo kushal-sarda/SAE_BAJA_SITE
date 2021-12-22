@@ -24,14 +24,14 @@ const Navbar = () => {
                             <NavLink className="nav-link  text-center text-light" to="/events">Events</NavLink>
                         </li>
                         <li className="nav-item  w-75 m-auto">
-                            {/* <NavLink className="nav-link  text-center text-light" to="/baja">Baja</NavLink> */}
+                            <NavLink className="nav-link  text-center text-light" to="/baja">Baja</NavLink>
                         </li>
                         <li className="nav-item w-75 m-auto">
                             {
                                 (window.innerWidth > 500) ?
                                     <NavLink className="nav-link text-center text-light" to="/autopia">Autopia</NavLink>
                                     :
-                                    <a className="nav-link text-center text-light" href="http://www.pdf995.com/samples/pdf.pdf">Autopia</a>
+                                    <a className="nav-link text-center text-light" href="http://www.pdf995.com/samples/pdf.pdf" download>Autopia</a>
                             }
                         </li>
 
