@@ -61,7 +61,7 @@ const Achievements = () => {
                                     <h4 style={{color:"wheat"}}>Our Events</h4>
                                     <p class="subheading text-light">College events shape the social and intellectual fabric of our college's campus. College students, especially freshmen, want new and authentic ways to connect.We conduct various events all the year round to stand out and improve student engagement with our event ideas</p>
                                 </div>
-                               <NavLink  to="/events"> <button className='btn w-50 bold' style={{background:"red",color:"white"}}>Know More</button></NavLink>
+                               <NavLink  to="/events"> <button className='btn w-50 bold' style={{background:"red",color:"white"}}>More</button></NavLink>
                             </div>
                         </li>
                         <li>
@@ -78,7 +78,7 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Followers
+            {isVisible ? <CountUp  start={0} end={5000} duration={5} /> : null}+Likes
           </div>
         )}
       </VisibilitySensor>
@@ -88,7 +88,7 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Views
+            {isVisible ? <CountUp  start={0} end={500} duration={5} /> : null}+Followers
           </div>
         )}
       </VisibilitySensor>
@@ -98,7 +98,7 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Likes
+            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Views
           </div>
         )}
       </VisibilitySensor>
