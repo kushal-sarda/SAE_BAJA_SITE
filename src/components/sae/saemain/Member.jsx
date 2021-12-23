@@ -24,14 +24,11 @@ const Members = () => {
     // }
     return (
         <>
-
-
-
             <h1 className=" p-4 text-center" style={{ color: "red" }}>Members</h1>
             <section class="page-section bg-light-gray" id="team">
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red" }}>Fourth Year</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red" }}>Final Year</h1>
                     </div>
                     <div class="row bg-light">
                         {
@@ -65,7 +62,7 @@ const Members = () => {
                 </div>
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-400px", color: "red" }}>Third Year</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-400px", color: "red" }}>Pre Final Year</h1>
                     </div>
                     <div class="row">
                         {
@@ -99,7 +96,7 @@ const Members = () => {
                 </div>
                 <div class="container ">
                     <div class="text-center">
-                    <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-200px", color: "red" }}>Second Year</h1>
+                    <h1 className=" p-4 text-center" style={{ color: "red" }} style={{ marginTop: "-200px", color: "red" }}>Sophomores</h1>
                     </div>
                     <div class="row"  style={{ marginTop: "-350px" }}>
                         {
