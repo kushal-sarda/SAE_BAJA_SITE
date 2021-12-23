@@ -129,6 +129,7 @@ ul {
   .footer-widget ul li a {
     color: #878787;
     text-transform: capitalize;
+    background-color: #0D0D0D!important;
   }
   
   .subscribe-form {
@@ -136,14 +137,7 @@ ul {
     overflow: hidden;
   }
   
-  .subscribe-form input {
-    width: 100%;
-    padding: 14px 28px;
-    background: #2e2e2e;
-    border: 1px solid #2e2e2e;
-    color: #fff;
-  }
-  
+ 
   
   
   .copyright-area {

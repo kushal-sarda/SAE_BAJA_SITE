@@ -7,18 +7,31 @@ import { Carousel } from 'react-carousel-minimal';
 const Home = () => {
     const data = [
         {
-          image:"https://assets.telegraphindia.com/telegraph/2021/Feb/1612984933_nit-durgapur.jpg"
-          // https://ibb.co/3MXpn89
-          // https://ibb.co/dJy3fVf",
-          // caption: "San Francisco"
+          image:"https://assets.telegraphindia.com/telegraph/2021/Feb/1612984933_nit-durgapur.jpg",
+         
+          caption: 
+          `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
+
         },
         {
           image: "https://t9h2j3k9.stackpathcdn.com/wp-content/uploads/2017/06/NIT-Durgapur-Odd-Semestar.jpg",
-          // caption: "Scotland"
+          caption: `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
         },
         {
           image: "https://images.shiksha.com/mediadata/images/1505207299phpRXo264.jpeg",
-          // caption: "Darjeeling"
+          caption:  `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
         },
         // {
         //   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
@@ -47,8 +60,11 @@ const Home = () => {
       ];
     
       const captionStyle = {
-        fontSize: '2em',
+        fontSize: '3em',
         fontWeight: 'bold',
+        color:"wheat",
+        
+           
       }
       const slideNumberStyle = {
         fontSize: '20px',
@@ -58,26 +74,28 @@ const Home = () => {
     return (
    
         <div className="App">
-        <div style={{ textAlign: "center" }}>
+        <div className='text-center'>
          
           <div style={{
-            padding: "0 0px"
+            padding: "0 0px",
+           
           }}>
             <Carousel
               data={data}
-              time={2000}
+              time={3000}
               width="1920px"
               height="800px"
               captionStyle={captionStyle}
               radius="5px"
               slideNumber={true}
               slideNumberStyle={slideNumberStyle}
-              captionPosition="bottom"
+              captionPosition="center"
               automatic={true}
+              
               dots={true}
               pauseIconColor="white"
               pauseIconSize="40px"
-              slideBackgroundColor="darkgrey"
+              slideBackgroundColor="lightgrey"
               slideImageFit="cover"
               thumbnails={true}
               thumbnailWidth="100px"
