@@ -4,5 +4,10 @@
 }
 
 .image-Overlay{
-    background: rgba(0, 0, 0, 0.158);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover1
+{
+    background-color: red;
 }

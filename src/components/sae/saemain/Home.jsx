@@ -7,22 +7,40 @@ import { Carousel } from 'react-carousel-minimal';
 const Home = () => {
     const data = [
         {
-          image:"https://images.pexels.com/photos/10626850/pexels-photo-10626850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          // https://ibb.co/3MXpn89
-          // https://ibb.co/dJy3fVf",
-          // caption: "San Francisco"
+
+          image:"https://images.pexels.com/photos/10626851/pexels-photo-10626851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+         
+          caption: 
+          `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
+
+        },
+        {
+          image: "https://images.pexels.com/photos/10626850/pexels-photo-10626850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          caption: `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
+        },
+      
+          image: "https://images.pexels.com/photos/10626852/pexels-photo-10626852.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+          caption: `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
         },
         {
           image: "https://images.pexels.com/photos/10626849/pexels-photo-10626849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-          // caption: "Scotland"
-        },
-        {
-          image: "https://images.pexels.com/photos/10626852/pexels-photo-10626852.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-          // caption: "Darjeeling"
-        },
-        {
-          image: "https://images.pexels.com/photos/10626851/pexels-photo-10626851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-          // caption: "Darjeeling"
+          caption:  `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
         },
         // {
         //   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
@@ -51,8 +69,11 @@ const Home = () => {
       ];
     
       const captionStyle = {
-        fontSize: '2em',
+        fontSize: '3em',
         fontWeight: 'bold',
+        color:"wheat",
+        
+           
       }
       const slideNumberStyle = {
         fontSize: '20px',
@@ -62,26 +83,30 @@ const Home = () => {
     return (
    
         <div className="App">
-        <div style={{ textAlign: "center" }}>
+        <div className='text-center'>
          
           <div style={{
-            padding: "0 0px"
+            padding: "0 0px",
+           
           }}>
             <Carousel
               data={data}
+
               time={20000}
+
               width="1920px"
               height="800px"
               captionStyle={captionStyle}
               radius="5px"
               slideNumber={true}
               slideNumberStyle={slideNumberStyle}
-              captionPosition="bottom"
+              captionPosition="center"
               automatic={true}
+              
               dots={true}
               pauseIconColor="white"
               pauseIconSize="40px"
-              slideBackgroundColor="darkgrey"
+              slideBackgroundColor="lightgrey"
               slideImageFit="cover"
               thumbnails={true}
               thumbnailWidth="100px"

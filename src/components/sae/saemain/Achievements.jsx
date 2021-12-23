@@ -9,29 +9,32 @@ import VisibilitySensor from "react-visibility-sensor"
 import { NavLink } from 'react-router-dom';
 import {Parallax} from 'react-parallax';
 import lambo from '../../../images/lambozz.png';
+import bgimage from "../../../images/bgimage.jpg"
 import '../saecss/achievements.css';
 
 const Achievements = () => {
  
     return (
         <>
-        <Parallax bgImage={lambo} strength={800} style={{backgroundSize:"cover !important", borderRadius: "30px", hieght: "500px"}}>
+        <Parallax bgImage={bgimage} strength={1000} bgImageStyle={{height: '100%',width:"100%",opacity: '.5'}}>
         <div className="image-Overlay">
-        <div  className='m-4 ' style={{paddingBottom: '20px', borderRadius: "20px"}}>
+        <div  className='' style={{paddingBottom: '20px', borderRadius: "20px"}}>
             <Slide to bottom>
                
             <section class="page-section text-light p-4" id="about">
-                <div class="container-fluid mt-4">
+                <div class="container-fluid mt-0">
                     <div class="text-center">
-                        <h2 class="section-heading text-uppercase p-4" style={{color:"red"}} >Our Achievements</h2>
-                        {/* <h3 class="section-subheading text-light">Lorem ipsum dolor sit amet consectetur.</h3> */}
+                        <h2 class="section-heading text-uppercase p-4" style={{color:"wheat"}} >Our Achievements</h2>
+                        
                     </div>
                     <ul class="timeline m-4">
                         <li>
                             <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://5.imimg.com/data5/JQ/PL/GLADMIN-48143395/inter-college-fests-event-service-500x500.png" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
-                                    <h4>Our Fest</h4>
+
+                                    <h4 style={{color:"wheat"}}>Our Fest</h4>
+
                                     <p class="subheading text-light">The vibrant college life is incomplete without a fest and constitutes a major part of the life of students. It etches a mark on the academic calendar and students look forward to the dates.</p>
                                 </div>
 
@@ -57,17 +60,18 @@ const Achievements = () => {
                             <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://i.marketingprofs.com/assets/images/seminar/325/red-event_275x200.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
-                                    <h4>Our Events</h4>
+                                    <h4 style={{color:"wheat"}}>Our Events</h4>
                                     <p class="subheading text-light">College events shape the social and intellectual fabric of our college's campus. College students, especially freshmen, want new and authentic ways to connect.We conduct various events all the year round to stand out and improve student engagement with our event ideas</p>
                                 </div>
-                               <NavLink  to="/events"> <button className='btn w-50 bold' style={{background:"red",color:"white"}}>Know More</button></NavLink>
+                               <NavLink  to="/events"> <button className='btn w-50 bold' style={{background:"red",color:"white"}}>More</button></NavLink>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://www.pngkit.com/png/full/197-1978460_pro-e-solutions-offers-you-social-media-consultancy.png" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
-                                    <h4>Social Media</h4>
+
+                                    <h4 style={{color:"wheat"}}>Social Media</h4>
                                     <p class="subheading text-light">Our Social Media Platforms</p>
                                 </div>
                                 <div className="row text-center">
@@ -97,7 +101,9 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={1500} duration={5} /> : null}+Views
+
+            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Views
+
           </div>
         )}
       </VisibilitySensor>

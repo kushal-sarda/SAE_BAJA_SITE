@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import axios from 'axios';
+import {AiOutlineClose} from "react-icons/ai"
 
 const Events = () => {
     const [country, setcountry] = useState([]);
@@ -26,23 +27,23 @@ const Events = () => {
             </div>
             
 
-            <section class="page-section bg-light" id="portfolio">
-                <div class="container">
+            <section className="page-section bg-light" id="portfolio">
+                <div className="container">
                    
-                    <div class="row">
+                    <div className="row">
                     {country.map((item) =>
-                        <div class="col-lg-3 col-sm-6 mb-4">
+                        <div className="col-lg-3  mb-4 shadow-lg p-3 m-0  bg-white rounded">
                             
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href={`#${item.name}`}>
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div className="portfolio-item">
+                                <a className="portfolio-link" data-bs-toggle="modal" href={`#${item.name}`}>
+                                    <div className="portfolio-hover1">
+                                        <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                                     </div>
-                                    <img class="img-fluid" style={{height:"300px",width:"300px"}} src={item.poster} alt="..." />
+                                    <img className="img-fluid" style={{height:"300px",width:"300px"}} src={item.poster} alt="..." />
                                 </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">{item.name}</div>
-                                    <div class="portfolio-caption-subheading text-muted">{`${item.Writeup.substring(0, 200)}...`}</div>
+                                <div className="portfolio-caption">
+                                    <div className="portfolio-caption-heading">{item.name}</div>
+                                    <div className="portfolio-caption-subheading text-muted">{`${item.Writeup.substring(0, 200)}...`}</div>
                                 </div>
                             </div>
                            
@@ -54,20 +55,20 @@ const Events = () => {
                 </div>
             </section>
             {country.map((item) =>
-            <div class="portfolio-modal modal fade" id={item.name} tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-bs-dismiss="modal"><img src="cross" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
+            <div className="portfolio-modal modal fade" id={item.name} tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="close-modal" data-bs-dismiss="modal"><AiOutlineClose size={64} color="red"/></div>
+                        <div className="container">
+                            <div className="row justify-content-center">
+                                <div className="col-lg-8">
+                                    <div className="modal-body">
 
-                                        <h2 class="text-uppercase">{item.name}</h2>
-                                        <p class="item-intro text-muted">{item.date}</p>
-                                        <img class="img-fluid d-block mx-auto" style={{width:"400px",height:"400px"}} src={item.poster} alt="..." />
+                                        <h2 className="text-uppercase">{item.name}</h2>
+                                        <p className="item-intro text-muted">{item.date}</p>
+                                        <img className="img-fluid d-block mx-auto" style={{width:"400px",height:"400px"}} src={item.poster} alt="..." />
                                         <p>{item.Writeup}</p>
-                                        <ul class="list-inline">
+                                        <ul className="list-inline">
                                             {/* <li>
                                                 <strong>Client:</strong>
                                                 Threads
@@ -77,8 +78,8 @@ const Events = () => {
                                                 Illustration
                                             </li> */}
                                         </ul>
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                            <i class="fas fa-times me-1"></i>
+                                        <button className="btn btn-danger btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                           
                                             Close Project
                                         </button>
                                     </div>
@@ -92,180 +93,7 @@ const Events = () => {
             )
             }
 
-            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>
-                                                <strong>Client:</strong>
-                                                Explore
-                                            </li>
-                                            <li>
-                                                <strong>Category:</strong>
-                                                Graphic Design
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                            <i class="fas fa-times me-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>
-                                                <strong>Client:</strong>
-                                                Finish
-                                            </li>
-                                            <li>
-                                                <strong>Category:</strong>
-                                                Identity
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                            <i class="fas fa-times me-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>
-                                                <strong>Client:</strong>
-                                                Lines
-                                            </li>
-                                            <li>
-                                                <strong>Category:</strong>
-                                                Branding
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                            <i class="fas fa-times me-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>
-                                                <strong>Client:</strong>
-                                                Southwest
-                                            </li>
-                                            <li>
-                                                <strong>Category:</strong>
-                                                Website Design
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                            <i class="fas fa-times me-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="modal-body">
-
-                                        <h2 class="text-uppercase">Project Name</h2>
-                                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                        <ul class="list-inline">
-                                            <li>
-                                                <strong>Client:</strong>
-                                                Window
-                                            </li>
-                                            <li>
-                                                <strong>Category:</strong>
-                                                Photography
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                            <i class="fas fa-times me-1"></i>
-                                            Close Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
 
         </>
     )
