@@ -7,7 +7,7 @@ import {
     AiOutlineMail,
     AiOutlineArrowUp,
 } from "react-icons/ai";
-import { FaArrowCircleUp, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
+import { FaArrowCircleUp, FaLinkedin, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 import { RiPhoneFindLine } from "react-icons/ri";
 import { FiPhoneCall } from "react-icons/fi";
 import { BiMailSend } from "react-icons/bi";
@@ -76,7 +76,7 @@ const Footer = () => {
                                         <FiPhoneCall size={32} />
                                         <br />
                                         <h4>Call us</h4>
-                                        <span>V Vishesh ( <strong>Gen Sec</strong> )</span>
+                                        <span>V Vishesh ( <strong>General Secretary</strong> )</span>
                                         <span>+916294274876</span><br/>
                                         <span>Rounak Das ( <strong>President</strong> )</span>
                                         <span>+917478528990</span>
@@ -105,6 +105,9 @@ const Footer = () => {
                                         </a>
                                         <a target="_blank" href="https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter/mycompany/">
                                             <FaLinkedin size={32} />
+                                        </a>
+                                        <a target="_blank" href="https://www.youtube.com/channel/UC9H4onmkThYbMHrce2PceQg">
+                                            <FaYoutube size={32} />
                                         </a>
                                     </div>
                                 </div>

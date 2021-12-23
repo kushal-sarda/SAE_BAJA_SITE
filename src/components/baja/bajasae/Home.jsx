@@ -22,7 +22,7 @@ const Homeb = () => {
                     <h1 className="landing-page-title text-center"><strong> “IF MUD AIN’T FLYIN<br></br>
 		YOU AIN’T TRYIN”</strong> </h1>
                         <h1 className="contact-form-title ">ABOUT</h1>
-                        <h2 className="page-subtitle"><b>Team NDORS (NIT Durgapur Off-Road Sports)</b> is the official <b>SAE BAJA</b> team of <b>NIT Durgapur</b> representing the institute in <b>BAJA SAE INDIA</b>. The team involves a group of 25 auto-enthusiasts across different streams who share a common passion towards automobile engineering and racing. The team designs, fabricates and competes against other All-Terrain Vehicles at an event popularly called as <b>BAJA SAE</b> which is held annually every year at Pithampur, Indore.</h2>
+                        <h2 className="page-subtitle"><b>Team NDORS (NIT Durgapur Off-Road Sports)</b> is the official <b> BAJA SAE</b> team of <b>NIT Durgapur</b> representing the institute in <b>BAJA SAEINDIA</b>. The team involves a group of 25 auto-enthusiasts across different streams who share a common passion towards automobile engineering and racing. The team designs, fabricates and competes against other All-Terrain Vehicles at an event popularly called as <b>BAJA SAE</b> which is held annually every year at Pithampur, Indore.</h2>
                         <p> </p>
 
 

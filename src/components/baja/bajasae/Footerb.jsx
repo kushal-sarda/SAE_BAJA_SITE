@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { AiFillFacebook, AiFillLinkedin, AiFillTwitterSquare, AiFillInstagram } from "react-icons/ai"
+import { AiFillFacebook, AiFillLinkedin, AiFillTwitterSquare, AiFillInstagram, AiFillYoutube } from "react-icons/ai"
 const Footer = () => {
     return (
         <>
@@ -24,8 +24,8 @@ const Footer = () => {
                                 </div>
                                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                                     <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
-                                    <p class="mb-1">605, RATAN ICON BUILDING</p>
-                                    <p>SEAWOODS SECTOR</p>
+                                    <p class="mb-1">Mahatma Gandhi Rd, A-Zone, Durgapur, West Bengal 713209</p>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="row ">
@@ -50,9 +50,9 @@ const Footer = () => {
                     <div class="row align-items-center">
                         <div class="col-lg-4 text-lg-start">Copyright &copy; SAE 2021</div>
                         <div class="col-lg-4 my-3 my-lg-0">
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><AiFillFacebook /></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><AiFillInstagram /></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><AiFillLinkedin /></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/search/top?q=team%20ndors%20racing%20nit%20durgapur"><AiFillFacebook /></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/team_ndors_racing/"><AiFillInstagram /></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCoiRzHmeUHeF87rSD4_ONfw"><AiFillYoutube /></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><AiFillTwitterSquare /></a>
                         </div>
                         <div class="col-lg-4 text-lg-end">

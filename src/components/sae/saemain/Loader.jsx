@@ -21,7 +21,7 @@ const Loader = () => {
                         <div class="needle"></div>
                         <div class="loading text-dark">Loading</div>
                     </div>
-                    <div className=" loading fw-bold text-center  fst-italic" style={{ color: "red" }}><h1 >SAE <span className="text-dark">NIT Durgapur</span></h1></div>
+                    <div className=" loading fw-bold text-center  fst-italic" style={{ color: "red" }}><h1 className="text-center">SAE- <span className="text-dark">NITD</span></h1></div>
 
                 </div>
             </div>

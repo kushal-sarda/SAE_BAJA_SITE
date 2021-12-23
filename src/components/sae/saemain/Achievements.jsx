@@ -31,23 +31,23 @@ const Achievements = () => {
                             <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://5.imimg.com/data5/JQ/PL/GLADMIN-48143395/inter-college-fests-event-service-500x500.png" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
-                                    <h4>Our Fests</h4>
+                                    <h4>Our Fest</h4>
                                     <p class="subheading text-light">The vibrant college life is incomplete without a fest and constitutes a major part of the life of students. It etches a mark on the academic calendar and students look forward to the dates.</p>
                                 </div>
 
                                 <div class="timeline-body">
                                     <div className="row">
                                         <div className="col-lg-4">
+                                            
+                                            <p className='text-center  fw-bolder  text-light'></p>
+                                        </div>
+                                        <div className="col-lg-4">
+                                            
+                                            <p className='text-center  fw-bolder text-light'></p>
+                                        </div>
+                                        <div className="col-lg-4">
                                             <img  style={{height:"100px",width:"100px"}} src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/605ebf9284b1b_aarohan-logo.png" alt="aarohan"></img>
                                             <p className='text-center  fw-bolder  text-light'>AArohan</p>
-                                        </div>
-                                        {/* <div className="col-lg-4">
-                                            <img  className=' rounded-circle' style={{height:"100px",width:"auto"}} src="https://www.noticebard.com/wp-content/uploads/2021/10/TedXNITDurgapur.jpg" alt="aarohan"></img>
-                                            <p className='text-center  fw-bolder  text-light'>TED<sup>x</sup>NITDurgapur</p>
-                                        </div> */}
-                                        <div className="col-lg-4">
-                                            <img  className=' rounded-circle' style={{height:"100px",width:"100px"}} src="https://www.knowafest.com/files/uploads/Aavishkar%20Logo-2018101102.jpeg" alt="aarohan"></img>
-                                            <p className='text-center  fw-bolder text-light'>AAVISHKAR</p>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ const Achievements = () => {
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
                                     <h4>Social Media</h4>
-                                    <p class="subheading text-light">our Social media platforms</p>
+                                    <p class="subheading text-light">Our Social Media Platforms</p>
                                 </div>
                                 <div className="row text-center">
                                     <div className="col-lg-4">
@@ -77,7 +77,7 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Followers
+            {isVisible ? <CountUp  start={0} end={5000} duration={5} /> : null}+Likes
           </div>
         )}
       </VisibilitySensor>
@@ -87,7 +87,7 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Views
+            {isVisible ? <CountUp  start={0} end={500} duration={5} /> : null}+Followers
           </div>
         )}
       </VisibilitySensor>
@@ -97,7 +97,7 @@ const Achievements = () => {
                                     <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
           <div className='text-light text-right bold' style={{ height: 100 }}>
-            {isVisible ? <CountUp  start={0} end={3000} duration={5} /> : null}+Likes
+            {isVisible ? <CountUp  start={0} end={1500} duration={5} /> : null}+Views
           </div>
         )}
       </VisibilitySensor>

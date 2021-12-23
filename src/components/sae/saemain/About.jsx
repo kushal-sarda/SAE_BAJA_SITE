@@ -12,12 +12,12 @@ const About = () => {
                                 <div className="heading  border-bottom border-dark border-1 w-50 text-left" style={{ color: "red" }}><h3>About Us</h3></div>
                                 <br></br>
                                 <p className="text-dark text-left"><strong className="text-danger">SAEINDIA</strong> is India's leading resource for mobility technology. It is a strategic alliance partner of SAE International registered in India as an Indian nonprofit engineering and scientific society dedicated to the advancement of mobility industry in India.
-                                    <strong className="text-danger"> SAE India collegiate chapter of NIT Durgapur</strong> was conceived in 2007 with an idea to integrate the students of the college into international fabric of automobile engineering.
+                                    <strong className="text-danger"> SAEINDIA Collegiate Chapter of NIT Durgapur</strong> was conceived in 2007 with an idea to integrate the students of the college into international fabric of automobile engineering.
                                     Presently 200 students are enjoying the benefits of SAE India membership.
                                     We organize a number of innovative events, workshops and lectures round the year and a competitive place where the sharpest minds battle in the quest to achieve disctinction.
-                                    SAE along with  Team Aavishkar organises <strong className="text-danger">AArohan</strong> which is the official technical fest of NIT Durgapur.
+                                    SAE along with  Team Aavishkar organises <strong className="text-danger">AAROHAN</strong> which is the official technical fest of NIT Durgapur.
                                     SAE NIT Durgapur also publishes its annual magazine called <strong className="text-danger">Autopia</strong> for automobile enthusiasts to know about latest technologies at one place.
-                                    <strong className="text-danger"> BAJA SAE </strong>is a part of SAE NIT Durgapur which takes part in BAJA competition organised by SAE India. They represent NIT Durgapur at this national level competition under the team name NDORS.</p>
+                                    <strong className="text-danger"> BAJA SAEINDIA </strong>is a part of SAE NIT Durgapur which takes part in BAJA competition organised by SAE India. They represent NIT Durgapur at this national level competition under the team name NDORS.</p>
                             </div>
                         </Slide>
                         <Slide to right>
@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                     <div className="row mx-3 bg-light" style={{padding: "20px", paddingBottom: "20px", borderRadius:"20px"}}>
                         <div className="col-lg-12 mt-5 ">
-                            <div className="heading  text-center border-bottom border-dark border-1 w-100 " style={{ color: "red" }}><h3 className="text-center">SAE INDIA Membership</h3></div>
+                            <div className="heading  text-center border-bottom border-dark border-1 w-100 " style={{ color: "red" }}><h3 className="text-center">SAEINDIA Membership</h3></div>
                             <br></br>
                             <p className="text-dark"><strong className="text-danger">SAEINDIA </strong>is one of the few professional engineering societies whose membership represents practically every engineering and scientific discipline. Its members combine their specialized abilities to further advance the research, development, design, manufacture and utilization of vehicles which operate on land and water and in air and space. Be a part of the SAE family by becoming a member and enjoy the following benefits:</p>
                             <ul className="text-dark text-left">

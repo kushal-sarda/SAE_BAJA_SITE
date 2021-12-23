@@ -409,8 +409,9 @@
   margin-bottom: 15px;
 }
 #timeline .demo-card .body img {
-  display: block;
+  
   width: 100%;
+  object-fit: contain;
 }
 #timeline .demo-card--step1 {
   background-color: #ecc516;

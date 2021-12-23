@@ -28,7 +28,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item w-75 m-auto">
                             {
-                                (window.innerWidth > 500) ?
+                                (window.innerWidth > 5000) ?
                                     <NavLink className="nav-link text-center text-light" to="/autopia">Autopia</NavLink>
                                     :
                                     <a className="nav-link text-center text-light" href="http://www.pdf995.com/samples/pdf.pdf" download>Autopia</a>
