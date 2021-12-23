@@ -15,7 +15,7 @@ const Work = () => {
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Our Achievements</h2>
-                        <h3 className="section-subheading text-muted">Previous Vehicles 2014,2015</h3>
+                        <h3 className="section-subheading text-muted"></h3>
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-sm-6 mb-4">

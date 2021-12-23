@@ -1,13 +1,14 @@
 import React from 'react'
 import { Carousel } from 'react-carousel-minimal';
-// import IMG1 from "../../../images/IMG1.JPG"
+
 
 
 
 const Home = () => {
     const data = [
         {
-          image:"https://assets.telegraphindia.com/telegraph/2021/Feb/1612984933_nit-durgapur.jpg",
+
+          image:"https://images.pexels.com/photos/10626851/pexels-photo-10626851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
          
           caption: 
           `<div>
@@ -18,7 +19,15 @@ const Home = () => {
 
         },
         {
-          image: "https://t9h2j3k9.stackpathcdn.com/wp-content/uploads/2017/06/NIT-Durgapur-Odd-Semestar.jpg",
+          image: "https://images.pexels.com/photos/10626850/pexels-photo-10626850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          caption: `<div>
+          SAE
+                  <br/>
+                  Society of Automotive Engineers
+                </div>`
+        },
+      
+          image: "https://images.pexels.com/photos/10626852/pexels-photo-10626852.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
           caption: `<div>
           SAE
                   <br/>
@@ -26,7 +35,7 @@ const Home = () => {
                 </div>`
         },
         {
-          image: "https://images.shiksha.com/mediadata/images/1505207299phpRXo264.jpeg",
+          image: "https://images.pexels.com/photos/10626849/pexels-photo-10626849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           caption:  `<div>
           SAE
                   <br/>
@@ -82,7 +91,9 @@ const Home = () => {
           }}>
             <Carousel
               data={data}
-              time={3000}
+
+              time={20000}
+
               width="1920px"
               height="800px"
               captionStyle={captionStyle}

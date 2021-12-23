@@ -54,6 +54,10 @@
 
 .loader .needle:before{content: ""; width: 0; height: 0; border-style: solid; border-width: 3.5px 50px 3.5px 0; border-color: transparent #e81512 transparent transparent; position: absolute; right: 50%; top: 50%; margin: -3.5px 0 0 0; border-radius: 0 50% 50% 0;}
 
+.text-center{
+  text-align: center;
+}
+
 @keyframes pegIt {
   0% {transform: rotate(0deg);}
   16% {transform: rotate(75deg);}

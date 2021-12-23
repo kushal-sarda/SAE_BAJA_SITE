@@ -11,12 +11,14 @@ const About = () => {
                             <div className="col-lg-6 text-white md-col-6">
                                 <div className="heading  border-bottom border-dark border-1 w-50 text-left" style={{ color: "red" }}><h3>About Us</h3></div>
                                 <br></br>
+
                                 <p className="text-dark text-left">
                                <strong className='text-danger bold'> SAEINDIA </strong> is a strategic alliance partner of <strong className='text-danger bold'> SAE International</strong> registered in India as an Indian nonprofit engineering and scientific society dedicated to the advancement of the mobility industry in India.
                                <strong className='text-danger bold'> SAE India Collegiate Club of NIT Durgapur</strong> was conceived in 2007 with an idea to integrate the students of the college into the international fabric of automobile engineering, adhering to the core principles laid down by SAE International. We are a student body composed of enthusiastic individuals, who are always at a constant strife to learn. This strife is the fuel that propels us to ideate, execute, and consequently deliver a dynamic gamut of events, which receive an extensive participation from various institutes.The outputs of our efforts could be appreciated in a better way by discussing various aspects of our club.
                                <strong className='text-danger bold'> Autopia </strong> is the official Automotive Magazine of the club. The magazine comprises articles in the domains of robotics, automobile and technology, and provides a thorough analysis about the latest innovations which are on the verge of propelling mankind forward! Over 1k+ copies are circulated each year amongst students, teachers and industrialists! 
                                <strong className='text-danger bold'> BAJA </strong> organised by SAEINDIA is an off-road racing competition in which  <strong className='text-danger bold'> Team NDORS</strong>, the official racing team of NITD, bagged the position of 42nd this year.
                                 </p>
+
                             </div>
                         </Slide>
                         <Slide to right>
@@ -58,7 +60,7 @@ const About = () => {
                     </div>
                     <div className="row mx-3 bg-light" style={{padding: "20px", paddingBottom: "20px", borderRadius:"20px"}}>
                         <div className="col-lg-12 mt-5 ">
-                            <div className="heading  text-center border-bottom border-dark border-1 w-100 " style={{ color: "red" }}><h3 className="text-center">SAE INDIA Membership</h3></div>
+                            <div className="heading  text-center border-bottom border-dark border-1 w-100 " style={{ color: "red" }}><h3 className="text-center">SAEINDIA Membership</h3></div>
                             <br></br>
                             <p className="text-dark"><strong className="text-danger">SAEINDIA </strong>is one of the few professional engineering societies whose membership represents practically every engineering and scientific discipline. Its members combine their specialized abilities to further advance the research, development, design, manufacture and utilization of vehicles which operate on land and water and in air and space. Be a part of the SAE family by becoming a member and enjoy the following benefits:</p>
                             <ul className="text-dark text-left">
