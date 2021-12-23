@@ -27,7 +27,7 @@ const Home = () => {
                 </div>`
         },
       
-          image: "https://images.pexels.com/photos/10626852/pexels-photo-10626852.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+          {   image: "https://images.pexels.com/photos/10626852/pexels-photo-10626852.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
           caption: `<div>
           SAE
                   <br/>
