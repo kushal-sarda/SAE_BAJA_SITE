@@ -27,12 +27,11 @@ const Navbar = () => {
                             <NavLink className="nav-link  text-center text-light" to="/baja">Baja</NavLink>
                         </li>
                         <li className="nav-item w-75 m-auto">
-                            {
-                                (window.innerWidth > 5000) ?
-                                    <NavLink className="nav-link text-center text-light" to="/autopia">Autopia</NavLink>
-                                    :
-                                    <a className="nav-link text-center text-light" href="http://www.pdf995.com/samples/pdf.pdf" download>Autopia</a>
-                            }
+                            
+                                
+                                    <a className="nav-link text-center text-light" href="https://drive.google.com/file/d/1U52AJ3t8rzPYsUGRGXTvaSshXuUxioAl/view?usp=sharing">Autopia</a>
+                                   
+                            
                         </li>
 
 

@@ -92,13 +92,13 @@ const Home = () => {
             <Carousel
               data={data}
 
-              time={20000}
+              time={2000}
 
               width="1920px"
               height="800px"
               captionStyle={captionStyle}
               radius="5px"
-              slideNumber={true}
+              slideNumber={false}
               slideNumberStyle={slideNumberStyle}
               captionPosition="center"
               automatic={true}
@@ -106,7 +106,7 @@ const Home = () => {
               dots={true}
               pauseIconColor="white"
               pauseIconSize="40px"
-              slideBackgroundColor="lightgrey"
+              slideBackgroundColor=""
               slideImageFit="cover"
               thumbnails={true}
               thumbnailWidth="100px"

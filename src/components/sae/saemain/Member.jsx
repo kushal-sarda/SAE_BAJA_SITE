@@ -25,12 +25,12 @@ const Members = () => {
     return (
         <>
             <h1 className=" p-4 text-center" style={{ color: "red" }}>Members</h1>
-            <section class="page-section bg-light-gray" id="team">
+            <section class="page-section " id="team">
                 <div class="container ">
                     <div class="text-center">
                     <h1 className=" p-4 text-center" style={{ color: "red" }}>Final Year</h1>
                     </div>
-                    <div class="row bg-light">
+                    <div class="row ">
                         {
                             country.map((item) =>{
                             var x = item.batch;
@@ -43,15 +43,15 @@ const Members = () => {
                                         <p class="text-muted">{item.post}</p>
                                         {
                                             (item.linkedin)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>:<a class="btn btn-muted  border-dark btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>
                                         }
                                         {
                                              (item.facebook)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>:<a class="btn btn-muted border-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
                                         }
                                         {
                                             (item.insta)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.insta}><AiFillInstagram /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.insta}><AiFillInstagram /></a>:<a class="btn btn-muted border-dark btn-social mx-2" href={item.facebook}><AiFillInstagram /></a>
                                         }
                                     </div>
                                 </div>:<h1></h1>)
@@ -77,15 +77,15 @@ const Members = () => {
                                         {/* <p class="text-muted">{item.post}</p> */}
                                         {
                                             (item.linkedin)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>:<a class="btn btn-muted  border-dark btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>
                                         }
                                         {
                                              (item.facebook)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>:<a class="btn btn-muted border-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
                                         }
                                         {
                                             (item.insta)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.insta}><AiFillInstagram /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.insta}><AiFillInstagram /></a>:<a class="btn btn-muted border-dark btn-social mx-2" href={item.facebook}><AiFillInstagram /></a>
                                         }
                                     </div>
                                 </div>:<h1></h1>)
@@ -111,15 +111,15 @@ const Members = () => {
                                         {/* <p class="text-muted">{item.post}</p> */}
                                         {
                                             (item.linkedin)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>:<a class="btn btn-muted  border-dark btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>
                                         }
                                         {
                                              (item.facebook)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>:<a class="btn btn-muted border-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
                                         }
                                         {
                                             (item.insta)?
-                                        <a class="btn btn-danger btn-social mx-2" href={item.insta}><AiFillInstagram /></a>:<></>
+                                        <a class="btn btn-danger btn-social mx-2" href={item.insta}><AiFillInstagram /></a>:<a class="btn btn-muted border-dark btn-social mx-2" href={item.facebook}><AiFillInstagram /></a>
                                         }
                                     </div>
                                 </div>:<h1></h1>)
