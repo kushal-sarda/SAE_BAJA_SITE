@@ -63,7 +63,7 @@ const Footer = () => {
                                         <br />
                                         <h4>Mail us</h4>
                                         <span className="footer-email">
-                                            sae.nitdgp1@gmail.com
+                                           <a href="mailto:sae.nitdgp1@gmail.com" className="text-muted text-decoration-none">sae.nitdgp1@gmail.com</a>
                                         </span>
 
                                     </div>
@@ -76,10 +76,11 @@ const Footer = () => {
                                         <FiPhoneCall size={32} />
                                         <br />
                                         <h4>Call us</h4>
-                                        <span>V Vishesh ( <strong>General Secretary</strong> )</span>
-                                        <span>+916294274876</span><br/>
+                                        
                                         <span>Rounak Das ( <strong>President</strong> )</span>
-                                        <span>+917478528990</span>
+                                        <span> : <span className="bold">+91</span> 74785 28990</span><br/>
+                                        <span>V Vishesh ( <strong>General Secretary</strong> )</span>
+                                        <span> :+91 62942 74876</span>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +138,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <NavLink to="/baja"   exact>
-                                                baja
+                                                BAJA
                                             </NavLink>
                                         </li>
                                         <li>

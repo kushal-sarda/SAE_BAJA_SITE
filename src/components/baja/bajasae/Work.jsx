@@ -43,7 +43,7 @@ const Work = () => {
                                     <img className="img-fluid" src={d} alt="..." />
                                 </a>
                                 <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">SAE Baja 2019</div>
+                                    <div className="portfolio-caption-heading">SAE BAJA 2019</div>
                                     <div className="portfolio-caption-subheading text-muted"></div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ const Work = () => {
                                     <img className="img-fluid" src={b} alt="..." />
                                 </a>
                                 <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">SAE Baja 2018</div>
+                                    <div className="portfolio-caption-heading">SAE BAJA 2018</div>
                                     <div className="portfolio-caption-subheading text-muted"></div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const Work = () => {
                                     <img className="img-fluid" src={e} alt="..." />
                                 </a>
                                 <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">SAE Baja 2017</div>
+                                    <div className="portfolio-caption-heading">SAE BAJA 2017</div>
                                     <div className="portfolio-caption-subheading text-muted"></div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ const Work = () => {
                                     <img className="img-fluid" src={f} alt="..." style={{height: "320px", width:"450px"}}/>
                                 </a>
                                 <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">SAE Baja 2016</div>
+                                    <div className="portfolio-caption-heading">SAE BAJA 2016</div>
                                     <div className="portfolio-caption-subheading text-muted"></div>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ const Work = () => {
                                     <img className="img-fluid" src={a} alt="..." />
                                 </a>
                                 <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">SAE Baja 2015</div>
+                                    <div className="portfolio-caption-heading">SAE BAJA 2015</div>
                                     <div className="portfolio-caption-subheading text-muted"></div>
                                 </div>
                             </div>

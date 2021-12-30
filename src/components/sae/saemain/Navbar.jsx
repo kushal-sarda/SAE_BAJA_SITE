@@ -24,7 +24,7 @@ const Navbar = () => {
                             <NavLink className="nav-link  text-center text-light" to="/events">Events</NavLink>
                         </li>
                         <li className="nav-item  w-75 m-auto">
-                            <NavLink className="nav-link  text-center text-light" to="/baja">Baja</NavLink>
+                            <NavLink className="nav-link  text-center text-light" to="/baja">BAJA</NavLink>
                         </li>
                         <li className="nav-item w-75 m-auto">
                             

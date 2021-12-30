@@ -29,7 +29,7 @@ const Achievements = () => {
                     </div>
                     <ul class="timeline m-4">
                         <li>
-                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://5.imimg.com/data5/JQ/PL/GLADMIN-48143395/inter-college-fests-event-service-500x500.png" alt="..." /></div>
+                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://youthincmag.com/wp-content/uploads/2017/08/college_fests.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
 
@@ -50,14 +50,14 @@ const Achievements = () => {
                                         </div>
                                         <div className="col-lg-4">
                                             <img  style={{height:"100px",width:"100px"}} src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/605ebf9284b1b_aarohan-logo.png" alt="aarohan"></img>
-                                            <p className='text-center  fw-bolder  text-light'>AArohan</p>
+                                            <p className='text-center  fw-bolder  text-light'>AAROHAN</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://i.marketingprofs.com/assets/images/seminar/325/red-event_275x200.jpg" alt="..." /></div>
+                            <div class="timeline-image" style={{backgroundColor:"red"}}><img class="rounded-circle img-fluid" src="https://thumbs.dreamstime.com/b/events-calendar-icon-isolated-elegant-red-round-button-abstract-illustration-events-calendar-icon-elegant-red-round-button-104782145.jpg" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading text-light">
                                     <h4 style={{color:"wheat"}}>Our Events</h4>

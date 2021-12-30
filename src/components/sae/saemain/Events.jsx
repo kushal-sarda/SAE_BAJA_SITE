@@ -42,7 +42,7 @@ const Events = () => {
                                     <img className="img-fluid" style={{height:"300px",width:"300px"}} src={item.poster} alt="..." />
                                 </a>
                                 <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">{item.name}</div>
+                                    <div className="portfolio-caption-heading " style={{textTransform:"uppercase"}} >{item.name}</div>
                                     <div className="portfolio-caption-subheading text-muted">{`${item.Writeup.substring(0, 200)}...`}</div>
                                 </div>
                             </div>

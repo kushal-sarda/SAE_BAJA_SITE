@@ -15,7 +15,7 @@ const Navbarb = () => {
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                             <li className="nav-item navb"><NavLink className="nav-link" to="/baja">Home</NavLink></li>
-                            <li className="nav-item navb"><NavLink className="nav-link" to="/baja/team">team</NavLink></li>
+                            <li className="nav-item navb"><NavLink className="nav-link" to="/baja/team">Team</NavLink></li>
                             <li className="nav-item navb"><NavLink className="nav-link" to="/baja/sponsor">Sponsors</NavLink></li>
                             <li className="nav-item navb"><NavLink className="nav-link" to="/baja/work">Work</NavLink></li>
                             <li className="nav-item navb"><NavLink className="nav-link" to="/">SAE</NavLink></li>

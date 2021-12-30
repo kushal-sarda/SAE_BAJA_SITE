@@ -28,11 +28,11 @@ const Team = () => {
                                 <div className="col-lg-4">
                                     <div className="team-member">
                                         <img className="mx-auto rounded-circle" src={item.image} alt="..." />
-                                        <h4>{item.name}</h4>
+                                        <h4 style={{textTransform:"uppercase"}}>{item.name}</h4>
                                         <p className="text-muted">{item.post}</p>
                                         <a className="btn btn-dark btn-social mx-2" href={item.linkedin}><AiFillLinkedin /></a>
-                                        <a className="btn btn-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
-                                        <a className="btn btn-dark btn-social mx-2" href={item.insta}><AiFillInstagram /></a>
+                                        {/* <a className="btn btn-dark btn-social mx-2" href={item.facebook}><AiFillFacebook /></a>
+                                        <a className="btn btn-dark btn-social mx-2" href={item.insta}><AiFillInstagram /></a> */}
                                     </div>
                                 </div>
                             )
